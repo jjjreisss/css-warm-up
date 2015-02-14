@@ -1,10 +1,5 @@
 /* PHASE 2: Navigation */
 
-.header a {
-  display: block;
-  padding: 10px 20px;
-}
-
 .header-logo {
   float: left;
   border-right: 1px solid #ccc;

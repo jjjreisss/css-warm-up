@@ -9,8 +9,10 @@ body {
 
 }
 
+.header a {
+
+}
+
 .header-nav {
 
-  /* Leave this for debugging. */
-  min-height: 30px;
 }
