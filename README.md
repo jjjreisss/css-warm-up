@@ -10,17 +10,17 @@ As your first step towards CSS mastery, this assignment will focus on getting co
 
 We will use the following subset of [CSS 2.1][css-21] properties. With only these 11 properties we can style the complete page!
 
-- [display][p-display]
-- [margin][p-margin]
-- [border][p-border] (and border-bottom, border-left, etc.)
-- [padding][p-padding]
-- [width][p-width]
-- [font-family][p-font-family]
-- [font-size][p-font-size]
-- [font-weight][p-font-weight]
-- [color][p-color]
-- [background][p-background]
-- [float][p-float]
+1. [display][p-display]
+2. [margin][p-margin]
+3. [border][p-border] (and border-bottom, border-left, etc.)
+4. [padding][p-padding]
+5. [width][p-width]
+6. [font-family][p-font-family]
+7. [font-size][p-font-size]
+8. [font-weight][p-font-weight]
+9. [color][p-color]
+10. [background][p-background]
+11. [float][p-float]
 
 [css-21]: http://www.w3.org/TR/CSS21/propidx.html
 [p-display]: https://github.com/appacademy/css-demos#the-display-property
@@ -52,8 +52,7 @@ We will use the following subset of [CSS 2.1][css-21] properties. With only thes
 
 ## Phase 1: Header
 
-**Topics:** [font-family][p-font-family], [font-weight][p-font-weight], [font-size][p-font-size], [color][p-color], [background][p-background], [margin][p-margin], [border][p-border], [width][p-width]
-
+- [Screenshot A][ss-01-a]
 - [Live][live-01]
 
 Every browser comes with a built in stylesheet. This is called the `user-agent-stylesheet`. As browsers vary, and we don't want to be fighting built in styles, we've provided a so-called reset stylesheet. This is automatically included in your HTML documents today. If you're curious, you can peek at `skeleton/css/00-reset.css`. We'll talk more about this later in class this week.
@@ -79,11 +78,12 @@ Finally, we note that our header is quite thin compared to the screenshot. There
 Refresh and high-five yourself!
 
 [live-01]: http://appacademy.github.io/css-warm-up/solution/01-header.html
+[ss-01-a]: ./screenshots/01-header-a.png
 
 ## Phase 2: Navigation
 
-**Topics:** [float][p-float], [display][p-display], [border][p-border], [padding][p-padding], [background][p-background], [font-weight][p-font-weight]
-
+- [Screenshot A][ss-02-a]
+- [Screenshot B][ss-02-b]
 - [Live][live-02]
 
 Let's add some navigation! Pull up the screenshot and study the HTML for this phase. Note that we've been given a nicely structured unordered list `<ul>` with list items `<li>` inside of it, who in their turn contain `<a>` tags. Note how we declared the corresponding CSS selectors for all these tags.
@@ -107,11 +107,12 @@ Finally, to top it off, let's consider the usability of our navigation bar. Woul
 At this point we've covered all basic techniques. Yay! The next two steps will simply be variations of what we've done so far!
 
 [live-02]: http://appacademy.github.io/css-warm-up/solution/02-navigation.html
+[ss-02-a]: ./screenshots/02-navigation-a.png
+[ss-02-b]: ./screenshots/02-navigation-b.png
 
 ## Phase 3: Content
 
-**Topics:** [float][p-float], [margin][p-margin], [border][p-border], [padding][p-padding], [width][p-width], [background][p-background], [font-size][p-font-size], [font-weight][p-font-weight]
-
+- [Screenshot A][ss-03-a]
 - [Live][live-03]
 
 Launch the HTML file in Chrome and notice the big mess and broken navigation bar. Don't be discouraged, it's simply the missing `group` classes from the HTML. Add them back to the HTML like we did earlier. Much better!
@@ -127,18 +128,21 @@ Finally, set the `font-size` and `font-weight` on the `.content h1`. Add a botto
 So close!
 
 [live-03]: http://appacademy.github.io/css-warm-up/solution/03-content.html
+[ss-03-a]: ./screenshots/03-content-a.png
 
 
 ## Phase 4: Footer
 
-**Topics:** [float][p-float], [margin][p-margin], [border][p-border], [padding][p-padding], [width][p-width], [background][p-background], [color][p-color], [font-size][p-font-size], [font-weight][p-font-weight]
-
+- [Screenshot A][ss-04-a]
+- [Screenshot B][ss-04-b]
 - [Live][live-04]
 
 At this point you should be able to tackle the footer mostly on your own. I'd suggest giving it a shot! Remember the [specs][specs].
 
 If you get stuck, here's the list of steps I'd take: Set the width and the background, align the footer center, set the color and font-size and add the borders. Float the copyright to the left, and the list of links to the right. Have the inner list items be floated to the left. Don't forget to add the group classes to all parents of a floated element. Use padding to space everything out. Finally, set a hover state for the links. Et voila!
 
-You did it! Pretty cool, right? Compare it with the solutions!
+You did it! Pretty cool, right? Now compare your work to my solutions!
 
 [live-04]: http://appacademy.github.io/css-warm-up/solution/04-footer.html
+[ss-04-a]: ./screenshots/04-footer-a.png
+[ss-04-b]: ./screenshots/04-footer-b.png
